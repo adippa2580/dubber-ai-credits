@@ -154,58 +154,45 @@ footer.site{padding:32px 0 48px;font-size:13px;color:var(--muted)}
 <section class="block" id="intro"><div class="wrap">
 <h2><span class="num">1</span>Introduction</h2>
 <div class="intro">
-<p>Verizon asked us for gridwall and product page content for the Dubber SKUs going onto Verizon Business Marketplace. I've used the live Adentro listing as the model. Every tile, section and field below follows that listing's structure, so the Marketplace team can drop the Dubber content into the same templates.</p>
+<p>Verizon asked us for gridwall and product page content for the Dubber SKUs going onto Verizon Business Marketplace. Every tile, section and field below follows the structure of existing Marketplace partner listings, so the Marketplace team can drop the Dubber content into the same templates.</p>
 <p>The SKU part numbers, product names, descriptions, units and token inclusions come from our Dubber SKU exhibit. Prices shown are list prices in US dollars. The product copy and usage detail come from our guide, <a href="../">How Dubber AI Credits Work with Dubber Notes</a>. Anything we still need to agree, mostly Verizon's own catalog IDs and terms, is marked <span class="tbd">[TBD]</span> and listed in section 8.</p>
 <p>I've also included the flow that drives repeat revenue. When an account's AI Credits run low, the Dubber Notification Centre emails the people the customer has chosen and sends them to the Dubber listing on Marketplace to buy another AI Credit Pack. Once Verizon fulfils the order, the credits go back into the account's pooled balance.</p>
 <p class="note">A note on terms: the SKU exhibit says "tokens" and the customer-facing guide says "AI Credits". They mean the same thing. I use AI Credits in customer copy and keep tokens where the SKU definition uses it.</p>
 </div>
-<div class="callout"><strong>Structure source.</strong> Section layout and field names mirror the live Adentro listing at <a href="https://www.verizon.com/business/shop/products/devices/marketplace/adentro" rel="noopener">verizon.com/business/shop/products/devices/marketplace/adentro</a>. That listing has a gridwall tile, a plan selector, Overview, Benefits, Compare plans, Use Cases and Resources. It has no FAQ or Specs tab, so I haven't added one here.</div>
+<div class="callout"><strong>What's covered.</strong> The Marketplace SKUs are three plans (Dubber Notes, Dubber Unified Capture and Dubber Notes - Compliance AI) and four AI Credit Packs. The page follows the Marketplace listing format: gridwall tiles, plan selector, Overview, Benefits, Compare plans, Use Cases and Resources.</div>
 </div></section>
 
 <section class="block" id="gridwall"><div class="wrap">
 <h2><span class="num">2</span>Gridwall tiles</h2>
-<p class="lede">On the live Marketplace gridwall, each partner gets one tile per product group, as Adentro does. A tile has an optional promo banner, the logo, the group name, a one-line description of about 100 to 120 characters, a "Starting at" price line, the line "Plus Applicable Taxes and Fees", and the filter tags (Category and Solution type). The first tile is the recommended Dubber group tile. The rest show each active SKU as its own card, in case Verizon wants SKU-level tiles or a Dubber collection page.</p>
+<p class="lede">On the Marketplace gridwall, each partner gets one tile per product group. A tile has an optional promo banner, the logo, the group name, a one-line description of about 100 to 120 characters, a "Starting at" price line, the line "Plus Applicable Taxes and Fees", and the filter tags (Category and Solution type). The first tile is the recommended Dubber group tile. Below it are the SKU tiles in two groups: the three plans, then the four AI Credit Packs.</p>
 <h3>Recommended: one Dubber group tile</h3>
 <div class="gw-bar"><span>Verizon Business Marketplace &middot; Showing results</span><span class="btns"><span>Filter</span><span>Sort</span></span></div>
 <div class="grid">
 <article class="tile group"><div class="promo none">Promo banner: <span class="tbd">[TBD: Verizon promo, or none]</span></div>
 <div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
-<p class="name">Dubber</p><p class="desc">Record every business call and message, and turn calls into clear AI Notes, actions and insights.</p>
+<p class="name">Dubber</p><p class="desc">Turn every business call into clear AI Notes, actions and insights, with compliance-grade capture.</p>
 <div class="chips"><span class="chip">Communication and Collaboration</span><span class="chip">Productivity and Collaboration</span><span class="chip">Professional Services</span></div>
-<p class="price1">Starting at $9.95/user/mo</p><p class="price2">Plus Applicable Taxes and Fees</p>
-<a class="cta" href="#pdp">Learn more</a><p class="counts">Description: 97 characters</p></div></article>
-<article class="tile"><div class="promo">Exclusive Holiday Offer</div>
-<div class="logo" style="font-weight:700;font-size:26px;letter-spacing:.02em">adentro</div><div class="body">
-<p class="name">adentro</p><p class="desc">Unlock real growth with Adentro's Guest WiFi Captive Portal software and marketing tool that boosts sales and loyalty.</p>
-<div class="chips"><span class="chip">Productivity and Collaboration</span><span class="chip">Business Security</span><span class="chip">Professional Services</span></div>
-<p class="price1" style="color:var(--faint);font-weight:400">No price line set on the Adentro tile</p><p class="price2">Reference: live Adentro tile content</p>
-<span class="cta" style="background:#777">Reference only</span><p class="counts">Description: 115 characters</p></div></article>
+<p class="price1">Starting at $10.95/user/mo</p><p class="price2">Plus Applicable Taxes and Fees</p>
+<a class="cta" href="#pdp">Learn more</a><p class="counts">Description: 98 characters</p></div></article>
 </div>
-<h3>SKU-level tiles</h3>
-<p class="note">There are seven subscription SKUs and four AI Credit Pack add-ons. The three grandfathered SKUs are end of sale, so they have no tiles (see section 4).</p>
+<h3>Group 1: Plans</h3>
+<p class="note">Three subscription plans, priced per user per month. Dubber Notes - Compliance AI is an add-on to Dubber Unified Capture.</p>
 <div class="grid" style="margin-top:14px">
 <article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind">Plan</span>
 <div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
-<p class="name">Dubber Recording</p><p class="sku">Part number: <code>DR_T_01</code></p><p class="desc">Business call recording with capture, storage and replay for every user.</p>
-<p class="price1">$9.95/user/mo</p><p class="price2">List price. Plus Applicable Taxes and Fees.</p><a class="cta" href="#pdp">Learn more</a></div></article><article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind">Plan</span>
-<div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
-<p class="name">Dubber Notes - Standard</p><p class="sku">Part number: <code>DN_T_01</code></p><p class="desc">Recording plus AI Notes, transcription, speakers and chapters. 11,100 AI Credits per user each month.</p>
+<p class="name">Dubber Notes</p><p class="sku">Part number: <code>DN_T_01</code></p><p class="desc">Recording plus AI Notes, transcription, speakers and chapters. 11,100 AI Credits per user each month.</p>
 <p class="price1">$10.95/user/mo</p><p class="price2">List price. Plus Applicable Taxes and Fees.</p><a class="cta" href="#pdp">Learn more</a></div></article><article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind">Plan</span>
 <div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
 <p class="name">Dubber Unified Capture</p><p class="sku">Part number: <code>DUR_T_01</code></p><p class="desc">Multi-channel, compliance-grade capture across voice and unified communications.</p>
 <p class="price1">$19.95/user/mo</p><p class="price2">List price. Plus Applicable Taxes and Fees.</p><a class="cta" href="#pdp">Learn more</a></div></article><article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind">Plan</span>
 <div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
 <p class="name">Dubber Notes - Compliance AI</p><p class="sku">Part number: <code>DN_A_01</code></p><p class="desc">AI add-on to Unified Capture: Notes with Actions and Complaints, plus all Dubber AI features. 11,700 AI Credits per user each month.</p>
-<p class="price1">$12.95/user/mo</p><p class="price2">List price. Plus Applicable Taxes and Fees. Requires Dubber Unified Capture (DUR_T_01).</p><a class="cta" href="#pdp">Learn more</a></div></article><article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind">Plan</span>
-<div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
-<p class="name">Text Message Capture</p><p class="sku">Part number: <code>SMS_T_01</code></p><p class="desc">Compliant capture and archive of SMS and text messages.</p>
-<p class="price1">$10.00/user/mo</p><p class="price2">List price. Plus Applicable Taxes and Fees.</p><a class="cta" href="#pdp">Learn more</a></div></article><article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind">Plan</span>
-<div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
-<p class="name">WhatsApp / Teams Messaging Capture</p><p class="sku">Part number: <code>MSG_T_01</code></p><p class="desc">Compliant capture and archive of WhatsApp and Microsoft Teams messaging.</p>
-<p class="price1">$10.00/user/mo</p><p class="price2">List price. Plus Applicable Taxes and Fees.</p><a class="cta" href="#pdp">Learn more</a></div></article><article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind">Plan</span>
-<div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
-<p class="name">Dubber API (per End Point)</p><p class="sku">Part number: <code>API_A_01</code></p><p class="desc">Connect Dubber to your own systems. Priced per connection: one end point, one use case.</p>
-<p class="price1">$8.33/end point/mo</p><p class="price2">List price. Plus Applicable Taxes and Fees.</p><a class="cta" href="#pdp">Learn more</a></div></article><article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind addon">Add-on</span>
+<p class="price1">$12.95/user/mo</p><p class="price2">List price. Plus Applicable Taxes and Fees. Requires Dubber Unified Capture (DUR_T_01).</p><a class="cta" href="#pdp">Learn more</a></div></article>
+</div>
+<h3>Group 2: AI Credit Packs</h3>
+<p class="note">One tile per pack. Customers buy a pack when the account goes past its monthly allowance: longer call hours, Full Notes, AI Moments, Insight Agent or a busy season. Pack credits never expire and are pooled across every user on the account. See <a href="#pack-use-cases">AI Credit Packs: use cases</a>.</p>
+<div class="grid" style="margin-top:14px">
+<article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind addon">Add-on</span>
 <div class="logo"><img src="../dubber-ai-logo.png" alt="Dubber"></div><div class="body">
 <p class="name">AI Credit Pack: SMB</p><p class="sku">Part number: <code>SMB_A_01</code></p><p class="desc">70,000 AI Credits (tokens) that never expire and are pooled across your account. About 90 hours of Notes.</p>
 <p class="price1">$100.00 per pack</p><p class="price2">List price. Plus Applicable Taxes and Fees.</p><a class="cta" href="#pdp">Add to cart</a></div></article><article class="tile"><div class="promo none">Promo: <span class="tbd">[TBD: Verizon promo, or none]</span></div><span class="kind addon">Add-on</span>
@@ -222,75 +209,104 @@ footer.site{padding:32px 0 48px;font-size:13px;color:var(--muted)}
 
 <section class="block" id="pdp"><div class="wrap">
 <h2><span class="num">3</span>Product detail page</h2>
-<p class="lede">This follows Adentro's page order: hero and plan selector, then Overview, Benefits (one card per plan with a summary list), Compare plans (a feature-by-plan table ending in an MSRP row), Use Cases (four cards) and Resources (links and contacts). The Dubber copy is ready to paste in.</p>
+<p class="lede">The page runs in Marketplace listing order: hero and plan selector, then Overview, Benefits (one card per plan with a summary list), Compare plans (a feature-by-plan table ending in an MSRP row), Use Cases (four cards) and Resources (links and contacts). The Dubber copy is ready to paste in.</p>
 <div class="pdp">
 <div class="crumbs">Business &rsaquo; Shop &rsaquo; Marketplace &rsaquo; Dubber &nbsp;&middot;&nbsp; URL: <code>/business/shop/products/devices/marketplace/<span class="tbd">[TBD: slug, e.g. dubber]</span></code></div>
 <div class="top">
 <div class="pic"><img src="../dubber-ai-logo.png" alt="Dubber"></div>
 <div>
 <h3 class="ptitle">Dubber</h3>
-<p class="tag">Record every business call and message, and turn calls into AI Notes, actions and insights</p>
+<p class="tag">Turn every business call into AI Notes, actions and insights, with compliance-grade capture</p>
 <p style="font-size:14px;margin:0 0 6px;font-weight:700">Choose a plan</p>
-<div class="plan-pick"><div class="plan"><div><b>Dubber Recording</b><code>DR_T_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">Business call recording with capture, storage and replay for every user.</span></div><div class="p">$9.95</div></div><div class="plan sel"><div><b>Dubber Notes - Standard</b><code>DN_T_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">Recording plus AI Notes, transcription, speakers and chapters. 11,100 AI Credits per user each month.</span></div><div class="p">$10.95</div></div><div class="plan"><div><b>Dubber Unified Capture</b><code>DUR_T_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">Multi-channel, compliance-grade capture across voice and unified communications.</span></div><div class="p">$19.95</div></div><div class="plan"><div><b>Dubber Notes - Compliance AI</b><code>DN_A_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">AI add-on to Unified Capture: Notes with Actions and Complaints, plus all Dubber AI features. 11,700 AI Credits per user each month.</span></div><div class="p">$12.95</div></div><div class="plan"><div><b>Text Message Capture</b><code>SMS_T_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">Compliant capture and archive of SMS and text messages.</span></div><div class="p">$10.00</div></div><div class="plan"><div><b>WhatsApp / Teams Messaging Capture</b><code>MSG_T_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">Compliant capture and archive of WhatsApp and Microsoft Teams messaging.</span></div><div class="p">$10.00</div></div><div class="plan"><div><b>Dubber API (per End Point)</b><code>API_A_01</code> &middot; Per end point / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">Connect Dubber to your own systems. Priced per connection: one end point, one use case.</span></div><div class="p">$8.33</div></div></div>
+<div class="plan-pick"><div class="plan sel"><div><b>Dubber Notes</b><code>DN_T_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">Recording plus AI Notes, transcription, speakers and chapters. 11,100 AI Credits per user each month.</span></div><div class="p">$10.95</div></div><div class="plan"><div><b>Dubber Unified Capture</b><code>DUR_T_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">Multi-channel, compliance-grade capture across voice and unified communications.</span></div><div class="p">$19.95</div></div><div class="plan"><div><b>Dubber Notes - Compliance AI</b><code>DN_A_01</code> &middot; Per user / month &middot; term <span class="tbd">[TBD: commitment]</span><br><span class="note">AI add-on to Unified Capture: Notes with Actions and Complaints, plus all Dubber AI features. 11,700 AI Credits per user each month.</span></div><div class="p">$12.95</div></div></div>
 <p style="font-size:14px;margin:0 0 6px;font-weight:700">Add-ons: AI Credit Packs (per pack)</p>
 <div class="plan-pick"><div class="plan"><div><b>SMB pack</b><code>SMB_A_01</code> &middot; 70,000 AI Credits</div><div class="p">$100.00</div></div><div class="plan"><div><b>Business pack</b><code>BUS_A_01</code> &middot; 195,000 AI Credits</div><div class="p">$250.00</div></div><div class="plan"><div><b>Business Plus + pack</b><code>BUSP_A_01</code> &middot; 450,000 AI Credits</div><div class="p">$500.00</div></div><div class="plan"><div><b>Enterprise pack</b><code>ENT_A_01</code> &middot; 1,000,000 AI Credits</div><div class="p">$1,000.00</div></div></div>
 <div class="qty">Users <span class="box">1 &ndash; <span class="tbd">[TBD: max]</span></span></div>
 <a class="btn-red" href="#skus">Add to cart</a><a class="btn-out" href="#skus">Compare plans</a>
-<p class="legal" style="margin-top:12px">List prices in US dollars, per user per month for plans (per end point for the API, per pack for AI Credit Packs). Plus Applicable Taxes and Fees. Fair Use Policy applies to all SKUs. Terms: <span class="tbd">[TBD: Dubber terms of service URL]</span></p>
+<p class="legal" style="margin-top:12px">List prices in US dollars, per user per month for plans and per pack for AI Credit Packs. Plus Applicable Taxes and Fees. Fair Use Policy applies to all SKUs. Terms: <span class="tbd">[TBD: Dubber terms of service URL]</span></p>
 </div></div>
 <div class="tabs"><span class="on">Overview</span><span>Benefits</span><span>Compare plans</span><span>Use Cases</span><span>Resources</span></div>
 
 <div class="sec"><h4>Overview</h4>
-<p>Dubber captures your business conversations and turns them into something you can use. Dubber Recording captures, stores and replays your calls. Dubber Notes adds AI to every call, with transcription, speakers, chapters and a clear Note you can act on, on the web or in the mobile app. For regulated teams, Dubber Unified Capture provides multi-channel, compliance-grade capture across voice and unified communications. Dubber Notes - Compliance AI adds Notes with Actions and Complaints and access to every Dubber AI feature. Text, WhatsApp and Microsoft Teams messages can be captured and archived as well.</p>
+<p>Dubber captures your business calls and turns them into something you can use. Dubber Notes gives every user call recording plus AI, with transcription, speakers, chapters and a clear Note you can act on, on the web or in the mobile app. For regulated teams, Dubber Unified Capture provides multi-channel, compliance-grade capture across voice and unified communications, and Dubber Notes - Compliance AI adds Notes with Actions and Complaints and access to every Dubber AI feature.</p>
 <p>Dubber's AI runs on AI Credits. Both Notes plans include a monthly allowance for each user, covering an indicative 7 hours of Notes, and credits are pooled across your account so lighter users balance out heavier ones. If your team needs more, add an AI Credit Pack at any time. Pack credits never expire and work across every AI and conversation intelligence feature you switch on.</p>
 </div>
 
 <div class="sec"><h4>Benefits</h4><div class="cards">
-<div class="card"><h5>Dubber Recording</h5><p>Call recording for every user.</p><p><b>Summary:</b></p><ul><li>Call capture, storage and replay</li><li>Fair Use allowance of 10 hours per user each month</li></ul></div>
-<div class="card"><h5>Dubber Notes - Standard</h5><p>Recording plus AI, so every call gets a clear Note and nobody has to take notes.</p><p><b>Summary:</b></p><ul><li>Non-compliant recording, Notes, transcription, speakers, chapters and account context</li><li>Dubber app included</li><li>11,100 AI Credits per user each month, covering an indicative 7 hours of Standard Notes</li><li>Credits pooled across your account</li></ul></div>
+<div class="card"><h5>Dubber Notes</h5><p>Recording plus AI, so every call gets a clear Note and nobody has to take notes.</p><p><b>Summary:</b></p><ul><li>Non-compliant recording, Notes, transcription, speakers, chapters and account context</li><li>Dubber app included</li><li>11,100 AI Credits per user each month, covering an indicative 7 hours of Standard Notes</li><li>Credits pooled across your account</li></ul></div>
 <div class="card"><h5>Dubber Unified Capture</h5><p>Compliance-grade capture for regulated teams, across every channel they use.</p><p><b>Summary:</b></p><ul><li>Multi-channel, compliance-grade capture across voice and unified communications</li><li>Compliance features included</li><li>Fair Use allowance of 10 hours per user each month</li></ul></div>
 <div class="card"><h5>Dubber Notes - Compliance AI</h5><p>Unified Capture plus AI. Follow-ups and customer issues are captured on every call, with access to every Dubber AI feature.</p><p><b>Summary:</b></p><ul><li>Transcription, speakers, chapters and account context, including Actions and Complaints</li><li>Dubber app and all Dubber AI-enabled features (AI Credits required)</li><li>11,700 AI Credits per user each month, covering an indicative 7 hours of Compliance Notes</li><li>Add-on to Dubber Unified Capture. Recording isn't included and needs a separate recording plan.</li></ul></div>
-<div class="card"><h5>Secure Message Archive</h5><p>Keep a compliant record of the messages your teams send, as well as their calls.</p><p><b>Summary:</b></p><ul><li>Text Message Capture: compliant capture and archive of SMS/text messages</li><li>WhatsApp / Teams Messaging Capture: compliant capture and archive of WhatsApp and Microsoft Teams messaging</li></ul></div>
-<div class="card"><h5>Dubber API and AI Credit Packs</h5><p>Connect Dubber to your own systems, and top up AI Credits whenever you need them.</p><p><b>Summary:</b></p><ul><li>API priced per connection: one end point, one use case</li><li>AI Credit Packs from 70,000 to 1,000,000 AI Credits</li><li>Pack credits never expire and are pooled across all users</li></ul></div>
+<div class="card"><h5>AI Credit Packs</h5><p>Top up AI Credits whenever you need them, with no lock-in.</p><p><b>Summary:</b></p><ul><li>AI Credit Packs from 70,000 to 1,000,000 AI Credits</li><li>Pack credits never expire and are pooled across all users</li></ul></div>
 </div></div>
 
 <div class="sec"><h4>Compare plans</h4>
 <div class="tscroll"><table>
-<thead><tr><th>Feature</th><th>Dubber Recording<br><code>DR_T_01</code></th><th>Dubber Notes - Standard<br><code>DN_T_01</code></th><th>Dubber Unified Capture<br><code>DUR_T_01</code></th><th>Unified Capture + Compliance AI<br><code>DUR_T_01 + DN_A_01</code></th></tr></thead>
+<thead><tr><th>Feature</th><th>Dubber Notes<br><code>DN_T_01</code></th><th>Dubber Unified Capture<br><code>DUR_T_01</code></th><th>Unified Capture + Compliance AI<br><code>DUR_T_01 + DN_A_01</code></th></tr></thead>
 <tbody>
-<tr><td>Call recording: capture, storage and replay</td><td class="y">YES</td><td class="y">YES (non-compliant)</td><td class="y">YES</td><td class="y">YES (from Unified Capture)</td></tr>
-<tr><td>Multi-channel, compliance-grade capture and compliance features</td><td>NO</td><td>NO</td><td class="y">YES</td><td class="y">YES</td></tr>
-<tr><td>Transcription, speakers, chapters and account context</td><td>&mdash;</td><td class="y">YES</td><td>&mdash;</td><td class="y">YES</td></tr>
-<tr><td>AI Notes</td><td>&mdash;</td><td class="y">YES (Standard Notes)</td><td>&mdash;</td><td class="y">YES (Compliance Notes)</td></tr>
-<tr><td>Actions and Complaints</td><td>&mdash;</td><td>Using AI Credits</td><td>&mdash;</td><td class="y">YES</td></tr>
-<tr><td>All Dubber AI-enabled features (AI Credits required)</td><td>&mdash;</td><td>Using AI Credits</td><td>&mdash;</td><td class="y">YES</td></tr>
-<tr><td>Dubber app</td><td>&mdash;</td><td class="y">YES</td><td>&mdash;</td><td class="y">YES</td></tr>
-<tr><td>AI Credits (tokens) included per user each month, pooled</td><td>&mdash;</td><td>11,100</td><td>&mdash;</td><td>11,700</td></tr>
-<tr><td>Indicative hours of Notes per user each month</td><td>&mdash;</td><td>7</td><td>&mdash;</td><td>7</td></tr>
-<tr><td>Recording allowance under the Fair Use Policy (1)</td><td>10 hours/user/month</td><td>7 hours/user/month</td><td>10 hours/user/month</td><td>10 hours/user/month</td></tr>
-<tr><td>AI Credit Pack top-ups</td><td><span class="tbd">[TBD: confirm]</span></td><td class="y">YES</td><td><span class="tbd">[TBD: confirm]</span></td><td class="y">YES</td></tr>
-<tr><td><b>MSRP (list)</b></td><td><b>$9.95/user/month</b></td><td><b>$10.95/user/month</b></td><td><b>$19.95/user/month</b></td><td><b>$32.90/user/month</b> ($19.95 + $12.95)</td></tr>
+<tr><td>Call recording: capture, storage and replay</td><td class="y">YES (non-compliant)</td><td class="y">YES</td><td class="y">YES (from Unified Capture)</td></tr>
+<tr><td>Multi-channel, compliance-grade capture and compliance features</td><td>NO</td><td class="y">YES</td><td class="y">YES</td></tr>
+<tr><td>Transcription, speakers, chapters and account context</td><td class="y">YES</td><td>&mdash;</td><td class="y">YES</td></tr>
+<tr><td>AI Notes</td><td class="y">YES (Standard Notes)</td><td>&mdash;</td><td class="y">YES (Compliance Notes)</td></tr>
+<tr><td>Actions and Complaints</td><td>Using AI Credits</td><td>&mdash;</td><td class="y">YES</td></tr>
+<tr><td>All Dubber AI-enabled features (AI Credits required)</td><td>Using AI Credits</td><td>&mdash;</td><td class="y">YES</td></tr>
+<tr><td>Dubber app</td><td class="y">YES</td><td>&mdash;</td><td class="y">YES</td></tr>
+<tr><td>AI Credits (tokens) included per user each month, pooled</td><td>11,100</td><td>&mdash;</td><td>11,700</td></tr>
+<tr><td>Indicative hours of Notes per user each month</td><td>7</td><td>&mdash;</td><td>7</td></tr>
+<tr><td>Recording allowance under the Fair Use Policy (1)</td><td>7 hours/user/month</td><td>10 hours/user/month</td><td>10 hours/user/month</td></tr>
+<tr><td>AI Credit Pack top-ups</td><td class="y">YES</td><td><span class="tbd">[TBD: confirm]</span></td><td class="y">YES</td></tr>
+<tr><td><b>MSRP (list)</b></td><td><b>$10.95/user/month</b></td><td><b>$19.95/user/month</b></td><td><b>$32.90/user/month</b> ($19.95 + $12.95)</td></tr>
 </tbody></table></div>
-<p class="note" style="margin-top:8px">&mdash; means the feature isn't listed in that SKU's description. The cells reading "Using AI Credits" on Notes - Standard come from the AI Credits guide, where Standard examples use Full Notes and Moments. Text Message Capture ($10.00), WhatsApp / Teams Messaging Capture ($10.00) and the Dubber API ($8.33 per end point) are priced per user or end point per month and sit alongside these plans.</p>
+<p class="note" style="margin-top:8px">&mdash; means the feature isn't listed in that SKU's description. The cells reading "Using AI Credits" on Dubber Notes come from the AI Credits guide, where Standard examples use Full Notes and Moments.</p>
 </div>
 
 <div class="sec"><h4>Use Cases</h4><div class="cards">
 <div class="card"><h5>Never take call notes again</h5><p>Every call gets a clear AI Note with a summary, chapters and who said what. Your team stays focused on the customer, and anyone can catch up on a conversation in seconds on the web or in the app.</p></div>
-<div class="card"><h5>Make sure follow-ups happen</h5><p>Compliance Notes, and Full Notes on Standard, pick out the Actions agreed on each call and any Complaints the customer raised. Sales and service teams can act on them straight away.</p></div>
-<div class="card"><h5>Stay compliant on every channel</h5><p>Unified Capture records voice and unified communications to a compliance grade. Text, WhatsApp and Teams capture keep the message side of the conversation on record too.</p></div>
+<div class="card"><h5>Make sure follow-ups happen</h5><p>Compliance Notes, and Full Notes on Dubber Notes, pick out the Actions agreed on each call and any Complaints the customer raised. Sales and service teams can act on them straight away.</p></div>
+<div class="card"><h5>Stay compliant on every channel</h5><p>Unified Capture records voice and unified communications to a compliance grade, and Compliance AI adds Notes with Actions and Complaints on top of every recording.</p></div>
 <div class="card"><h5>Win more deals and ask your conversations anything</h5><p>AI Moments such as Sales Close, Sales Process and Customer Satisfaction show how deals and customers are tracking. Insight Agent lets you ask questions in plain language and get insights across your calls.</p></div>
 </div></div>
+
+<div class="sec" id="pack-use-cases"><h4>AI Credit Packs: use cases</h4>
+<p>Every Dubber Notes and Dubber Notes - Compliance AI user comes with a monthly allowance of AI Credits: 11,100 or 11,700, covering an indicative 7 hours of Notes. An AI Credit Pack gives the account extra AI Credits to draw on once the included allowance for the month is used up. These are the situations where customers buy one.</p>
+<div class="cards">
+<div class="card"><h5>Teams that spend more time on calls</h5><p>If the account averages more than 7 hours of Analysed Audio per user each month, a pack covers the difference. On Dubber Notes, recordings beyond 7 hours deduct AI Credits at the recording rate of 1,111 per hour.</p><p class="note">Example: 20 users averaging 8 hours each need about 15,560 extra AI Credits a month. One SMB pack covers about 4 months, and one Business pack covers the full year.</p></div>
+<div class="card"><h5>Moving busy teams to Full Notes</h5><p>Full Notes adds Actions and Complaints, which roughly doubles the AI Credits used per hour (about 1,578 compared with 778 for Notes). Sales and service teams that follow up on every call often go past the allowance.</p></div>
+<div class="card"><h5>Adding AI Moments and Comprehensive AI</h5><p>Moments such as Sales Close, Sales Process and Customer Satisfaction use between 27 and 724 AI Credits per hour each. On Notes there's usually room for one or two. For Comprehensive AI, plan on a pack.</p><p class="note">Example: 10 users on Full Notes + Comprehensive AI use about 240,520 AI Credits a month, against 111,000 included. Adding a Business pack roughly every 6 weeks keeps them covered.</p></div>
+<div class="card"><h5>Insight Agent and custom triggers</h5><p>These are consumption based, so usage changes from month to month. A pack gives the account a comfortable buffer.</p></div>
+<div class="card"><h5>Busy seasons and peaks</h5><p>Included AI Credits don't carry over from a quiet month to a busy one, but pack credits do, so one pack can see an account through several peaks.</p></div>
+<div class="card"><h5>Large compliance teams</h5><p>Example: 100 users on Dubber Notes - Compliance AI share 1,170,000 AI Credits a month. With Full Notes for everyone, plus Sales Close and Customer Satisfaction for a 30-person contact team, the account runs about 131,370 over. One Enterprise pack covers that for more than 7 months.</p></div>
+<div class="card"><h5>Audit and compliance review periods</h5><p><span class="tbd">[TBD: confirm this use case and typical usage. It's not covered in the current source material.]</span></p></div>
+</div>
+<div class="two" style="margin-top:20px">
+<div><h5 style="font-size:16px;margin:0 0 8px">How pack credits are used</h5><ul style="font-size:14px;padding-left:18px;margin:0">
+<li>The plan's included allowance is used first. Pack credits are drawn on once it's used up.</li>
+<li>Pack credits are pooled across every user on the account.</li>
+<li>They work across all the AI and conversation intelligence features the customer has switched on, including Notes, Actions and Complaints, Moments, Insight Agent and triggers, until the pack is used up.</li>
+<li>They never expire, and any left over rolls over month after month.</li>
+<li>Usage shows in the live balance and in the monthly statement, which lists the opening balance, top-ups, usage by feature and closing balance.</li>
+</ul></div>
+<div><h5 style="font-size:16px;margin:0 0 8px">Choosing a pack</h5>
+<table style="font-size:13px"><thead><tr><th>If the account&hellip;</th><th>Suggest</th></tr></thead><tbody>
+<tr><td>goes over only now and then</td><td>SMB (70,000)</td></tr>
+<tr><td>goes over steadily, or wants 6 to 12 months of cover</td><td>Business (195,000)</td></tr>
+<tr><td>runs well past the allowance every month</td><td>Business Plus + (450,000)</td></tr>
+<tr><td>is a large team with steady extra usage</td><td>Enterprise (1,000,000)</td></tr>
+</tbody></table>
+<p class="note" style="margin-top:6px">Bigger packs cost less per AI Credit, and there's no lock-in.</p></div>
+</div>
+<div class="callout" style="margin-top:18px"><strong>How customers find out they need a pack.</strong> Customers don't need to watch their balance. The Dubber Notification Centre emails the people they've chosen when a set number of AI Credits has been used, or when the balance drops below the level they picked. The email links straight to this listing to buy a pack, and the credits go into the pooled balance once Verizon fulfils the order. See <a href="#topup">section 6</a> for the full flow and <a href="#email">section 7</a> for the emails.</div>
+</div>
 
 <div class="sec"><h4>Resources</h4><div class="res">
 <div><b>Product URL</b><a href="https://www.dubber.net/" rel="noopener">https://www.dubber.net/</a></div>
 <div><b>AI Credits guide</b><a href="../">How Dubber AI Credits Work with Dubber Notes</a></div>
 <div><b>Installation guide</b><span class="tbd">[TBD: URL]</span></div><div><b>User guide</b><span class="tbd">[TBD: URL]</span></div><div><b>API documentation</b><span class="tbd">[TBD: URL]</span></div>
-<div><b>Support page</b><span class="tbd">[TBD: URL]</span></div><div><b>Legal documentation</b><span class="tbd">[TBD: terms of service URL]</span></div><div><b>API licence</b><span class="tbd">[TBD: URL]</span></div>
+<div><b>Support page</b><span class="tbd">[TBD: URL]</span></div><div><b>Legal documentation</b><span class="tbd">[TBD: terms of service URL]</span></div>
 <div><b>Phone number</b><span class="tbd">[TBD: Verizon customer support line]</span></div><div><b>Point of contact email address</b><span class="tbd">[TBD: Verizon support email]</span></div>
 <div><b>End User License Agreement (EULA)</b><span class="tbd">[TBD: URL]</span></div>
 </div></div>
 
-<div class="sec"><p class="legal"><b>Disclaimers.</b> All quoted AI Credit (token) values are indicative only, based on estimates at the date of publication, and subject to change. AI Credit allowances and usage are pooled on an end account basis. (1) Fair Use Policy means the defined number of hours specified in each pricing plan or, where a product doesn't specify one, an allowance of ten (10) hours per user per month. Beyond that, additional charges apply or a higher plan is required. (2) Dubber Notes - Standard and Dubber Notes - Compliance AI contain a limited AI Credit allowance that can be used up. Unused allowance expires at the end of each billing period. Where recordings exceed 7 hours, AI Credits are deducted at the recording rate. (3) AI Credit Packs can be used across all enabled AI and conversation intelligence features the customer selects, until the allocation is used up. Pack credits don't expire and can be pooled across all users in an account. (4) API licences are restricted to use by the end customer through a single end point, with the data used for the customer's own purposes. Third parties must enter a separate API licence. The API must not be used to download or extract the same item of customer data more than once in any calendar month. The integration an API key is tied to can be changed, but not more than once in any calendar month. List prices are in US dollars. <span class="tbd">[TBD: Verizon-specific terms, cancellation and refund wording]</span></p></div>
+<div class="sec"><p class="legal"><b>Disclaimers.</b> All quoted AI Credit (token) values are indicative only, based on estimates at the date of publication, and subject to change. AI Credit allowances and usage are pooled on an end account basis. (1) Fair Use Policy means the defined number of hours specified in each pricing plan or, where a product doesn't specify one, an allowance of ten (10) hours per user per month. Beyond that, additional charges apply or a higher plan is required. (2) Dubber Notes and Dubber Notes - Compliance AI contain a limited AI Credit allowance that can be used up. Unused allowance expires at the end of each billing period. Where recordings exceed 7 hours, AI Credits are deducted at the recording rate. (3) AI Credit Packs can be used across all enabled AI and conversation intelligence features the customer selects, until the allocation is used up. Pack credits don't expire and can be pooled across all users in an account. List prices are in US dollars. <span class="tbd">[TBD: Verizon-specific terms, cancellation and refund wording]</span></p></div>
 </div></div></section>
 
 <section class="block" id="skus"><div class="wrap">
@@ -299,8 +315,8 @@ footer.site{padding:32px 0 48px;font-size:13px;color:var(--muted)}
 <h3>Subscription SKUs</h3>
 <div class="tscroll"><table style="min-width:1000px">
 <thead><tr><th>Group</th><th>Part number</th><th>Product name</th><th>Description</th><th>Unit / term</th><th>List price (USD)</th><th>AI Credits (tokens) included</th><th>Verizon catalog ID</th></tr></thead>
-<tbody><tr><td>Business recording</td><td><code>DR_T_01</code></td><td><b>Dubber Recording</b></td><td>Call recording: capture, storage and replay.</td><td>Per user / month</td><td>$9.95</td><td>None stated</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td>Business recording</td><td><code>DN_T_01</code></td><td><b>Dubber Notes - Standard</b></td><td>Recording + AI. 11,100 tokens monthly covering an indicative 7 hours of Standard Notes: non-compliant recording, Notes, transcription, speakers, chapters and account context, incl. app.</td><td>Per user / month</td><td>$10.95</td><td>11,100 per user/month (2)</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td>Compliance recording</td><td><code>DUR_T_01</code></td><td><b>Dubber Unified Capture</b></td><td>Multi-channel, compliance-grade capture and compliance features across voice and unified communications.</td><td>Per user / month</td><td>$19.95</td><td>None stated</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td>Compliance recording</td><td><code>DN_A_01</code></td><td><b>Dubber Notes - Compliance AI</b></td><td>AI add-on to Dubber Unified Capture. 11,700 tokens monthly covering an indicative 7 hours of Compliance Notes, incl. Actions, Complaints, app and all Dubber AI features. Recording not included.</td><td>Per user / month</td><td>$12.95</td><td>11,700 per user/month (2)</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td>Secure message archive</td><td><code>SMS_T_01</code></td><td><b>Text Message Capture</b></td><td>Compliant capture and archive of SMS/text messages.</td><td>Per user / month</td><td>$10.00</td><td>None stated</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td>Secure message archive</td><td><code>MSG_T_01</code></td><td><b>WhatsApp / Teams Messaging Capture</b></td><td>Compliant capture and archive of WhatsApp and Microsoft Teams messaging.</td><td>Per user / month</td><td>$10.00</td><td>None stated</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td>Dubber API</td><td><code>API_A_01</code></td><td><b>Dubber API (per End Point)</b></td><td>API usage priced per connection, per the API licence: one end point, one use case. (4)</td><td>Per end point / month</td><td>$8.33</td><td>Not applicable</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr></tbody></table></div>
-<p class="note" style="margin-top:8px">Pricing is per user per month, except the API, which is per end point. The Fair Use Policy (1) applies to all SKUs. DN_A_01 is an add-on to DUR_T_01. Footnote numbers match the disclaimers in section 3.</p>
+<tbody><tr><td>Business recording</td><td><code>DN_T_01</code></td><td><b>Dubber Notes - Standard</b></td><td>Recording + AI. 11,100 tokens monthly covering an indicative 7 hours of Standard Notes: non-compliant recording, Notes, transcription, speakers, chapters and account context, incl. app.</td><td>Per user / month</td><td>$10.95</td><td>11,100 per user/month (2)</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td>Compliance recording</td><td><code>DUR_T_01</code></td><td><b>Dubber Unified Capture</b></td><td>Multi-channel, compliance-grade capture and compliance features across voice and unified communications.</td><td>Per user / month</td><td>$19.95</td><td>None stated</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td>Compliance recording</td><td><code>DN_A_01</code></td><td><b>Dubber Notes - Compliance AI</b></td><td>AI add-on to Dubber Unified Capture. 11,700 tokens monthly covering an indicative 7 hours of Compliance Notes, incl. Actions, Complaints, app and all Dubber AI features. Recording not included.</td><td>Per user / month</td><td>$12.95</td><td>11,700 per user/month (2)</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr></tbody></table></div>
+<p class="note" style="margin-top:8px">Pricing is per user per month. The Fair Use Policy (1) applies to all SKUs. DN_A_01 is an add-on to DUR_T_01. Footnote numbers match the disclaimers in section 3.</p>
 
 <h3>Add-ons: AI Credit Packs (3)</h3>
 <div class="tscroll"><table style="min-width:1000px">
@@ -308,9 +324,6 @@ footer.site{padding:32px 0 48px;font-size:13px;color:var(--muted)}
 <tbody><tr><td><code>SMB_A_01</code></td><td><b>SMB</b></td><td>70,000</td><td>Per pack</td><td>$100.00</td><td>$1.43</td><td>About 90</td><td>About 44</td><td>About 20</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td><code>BUS_A_01</code></td><td><b>Business</b></td><td>195,000</td><td>Per pack</td><td>$250.00</td><td>$1.28</td><td>About 250</td><td>About 124</td><td>About 57</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td><code>BUSP_A_01</code></td><td><b>Business Plus +</b></td><td>450,000</td><td>Per pack</td><td>$500.00</td><td>$1.11</td><td>About 578</td><td>About 285</td><td>About 131</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr><tr><td><code>ENT_A_01</code></td><td><b>Enterprise</b></td><td>1,000,000</td><td>Per pack</td><td>$1,000.00</td><td>$1.00</td><td>About 1,285</td><td>About 634</td><td>About 291</td><td><span class="tbd">[TBD: Verizon catalog ID]</span></td></tr></tbody></table></div>
 <p class="note" style="margin-top:8px">*Worked out from the list price and pack size. Hours come from the AI Credits guide's usage rates. Pack credits never expire, are pooled across all users and work across every enabled AI and conversation intelligence feature. Whether a pack needs an active Notes subscription on the account is <span class="tbd">[TBD: confirm]</span>.</p>
 
-<h3>Grandfathered SKUs: end of sale (5)</h3>
-<p class="note">These are not for sale on Marketplace. They're listed so Verizon knows the codes if existing subscribers contact support. Existing subscribers have access to all Dubber AI features, and their SKU is loaded with AI Credits to match its Fair Use configuration.</p>
-<div class="tscroll" style="max-width:720px"><table style="min-width:0"><thead><tr><th>Part number</th><th>Product name</th><th>AI Credits (tokens) included</th></tr></thead><tbody><tr><td><code>DR_T_02</code></td><td>Dubber Trends</td><td>4,600 per user/month</td></tr><tr><td><code>DUR_T_02</code></td><td>Dubber Unified Capture + Insight (UC+1)</td><td>9,700 per user/month</td></tr><tr><td><code>DURI_T_01</code></td><td>Dubber Insights</td><td>13,300 per user/month</td></tr></tbody></table></div>
 
 <h3>AI Credit usage reference (per hour of Analysed Audio)</h3>
 <div class="tscroll" style="max-width:860px"><table style="min-width:0">
@@ -328,35 +341,35 @@ footer.site{padding:32px 0 48px;font-size:13px;color:var(--muted)}
 
 <section class="block" id="catalog"><div class="wrap">
 <h2><span class="num">5</span>Catalog field sheet</h2>
-<p class="lede">These are the fields the Adentro listing fills in, shown next to the Dubber value for each, so the Marketplace team can load the catalog record directly.</p>
+<p class="lede">These are the Marketplace catalog fields with the Dubber value for each, so the Marketplace team can load the catalog record directly.</p>
 <h3>Product group</h3>
 <div class="tscroll"><table>
-<thead><tr><th>Field</th><th>Adentro (live)</th><th>Dubber</th></tr></thead><tbody>
-<tr><td><code>productOfferingGroupName</code></td><td>Adentro Guest WiFi</td><td>Dubber</td></tr>
-<tr><td><code>name</code> (gridwall tile)</td><td>adentro</td><td>Dubber</td></tr>
-<tr><td><code>description</code> (gridwall tile)</td><td>Unlock real growth with Adentro's Guest WiFi Captive Portal software and marketing tool that boosts sales and loyalty.</td><td>Record every business call and message, and turn calls into clear AI Notes, actions and insights.</td></tr>
-<tr><td><code>description</code> (product page tagline)</td><td>Build loyalty using Adentro's Guest WiFi</td><td>Record every business call and message, and turn calls into AI Notes, actions and insights</td></tr>
-<tr><td><code>longDescription</code></td><td>About 330 characters, one paragraph</td><td>Dubber captures your business calls and messages and turns calls into clear AI Notes, actions and insights. Plans range from call recording to compliance-grade capture with AI. Notes plans include a monthly AI Credit allowance pooled across your account, and AI Credit Packs that never expire are available at any time.</td></tr>
-<tr><td><code>seoUrlName</code></td><td>adentro</td><td><span class="tbd">[TBD: slug, e.g. dubber]</span></td></tr>
-<tr><td><code>category</code></td><td>Productivity and Collaboration</td><td>Communication and Collaboration; Productivity and Collaboration <span class="tbd">[TBD: Verizon to confirm]</span></td></tr>
-<tr><td><code>solutionType</code></td><td>Business Security; Professional Services</td><td>Professional Services; Business Security; Healthcare Operations; Finance Operations <span class="tbd">[TBD: Verizon to confirm]</span></td></tr>
-<tr><td><code>priceDetail1</code> / <code>priceDetail2</code></td><td>Not set on the Adentro tile (other tiles use "Starting at $X/mo" / "Plus Applicable Taxes and Fees")</td><td>Starting at $9.95/user/mo / Plus Applicable Taxes and Fees</td></tr>
-<tr><td><code>promoBanner</code></td><td>Exclusive Holiday Offer</td><td><span class="tbd">[TBD: promo, or none]</span></td></tr>
-<tr><td>Logo image (desktop and mobile)</td><td>Verizon-hosted Scene7 image</td><td>Dubber logo (<code>dubber-ai-logo.png</code>, 280&times;104 here). <span class="tbd">[TBD: final logo asset spec]</span></td></tr>
-<tr><td><code>tncUrl</code></td><td>adentro.com/terms-of-service/</td><td><span class="tbd">[TBD: URL]</span></td></tr>
-<tr><td><code>sellingModel</code> / <code>categoryName</code></td><td>Resale / Software</td><td>Resale (the SKU exhibit lists these SKUs for resale) / Software</td></tr>
+<thead><tr><th>Field</th><th>Dubber value</th></tr></thead><tbody>
+<tr><td><code>productOfferingGroupName</code></td><td>Dubber</td></tr>
+<tr><td><code>name</code> (gridwall tile)</td><td>Dubber</td></tr>
+<tr><td><code>description</code> (gridwall tile)</td><td>Turn every business call into clear AI Notes, actions and insights, with compliance-grade capture.</td></tr>
+<tr><td><code>description</code> (product page tagline)</td><td>Turn every business call into AI Notes, actions and insights, with compliance-grade capture</td></tr>
+<tr><td><code>longDescription</code></td><td>Dubber captures your business calls and turns them into clear AI Notes, actions and insights. Plans range from Dubber Notes to compliance-grade capture with AI. Notes plans include a monthly AI Credit allowance pooled across your account, and AI Credit Packs that never expire are available at any time.</td></tr>
+<tr><td><code>seoUrlName</code></td><td><span class="tbd">[TBD: slug, e.g. dubber]</span></td></tr>
+<tr><td><code>category</code></td><td>Communication and Collaboration; Productivity and Collaboration <span class="tbd">[TBD: Verizon to confirm]</span></td></tr>
+<tr><td><code>solutionType</code></td><td>Professional Services; Business Security; Healthcare Operations; Finance Operations <span class="tbd">[TBD: Verizon to confirm]</span></td></tr>
+<tr><td><code>priceDetail1</code> / <code>priceDetail2</code></td><td>Starting at $10.95/user/mo / Plus Applicable Taxes and Fees</td></tr>
+<tr><td><code>promoBanner</code></td><td><span class="tbd">[TBD: promo, or none]</span></td></tr>
+<tr><td>Logo image (desktop and mobile)</td><td>Dubber logo (<code>dubber-ai-logo.png</code>, 280&times;104 here). <span class="tbd">[TBD: final logo asset spec]</span></td></tr>
+<tr><td><code>tncUrl</code></td><td><span class="tbd">[TBD: URL]</span></td></tr>
+<tr><td><code>sellingModel</code> / <code>categoryName</code></td><td>Resale (the SKU exhibit lists these SKUs for resale) / Software</td></tr>
 </tbody></table></div>
-<h3>Per plan (from Adentro's <code>productPlans</code> records)</h3>
+<h3>Per plan (<code>productPlans</code> records)</h3>
 <div class="tscroll"><table style="min-width:1000px">
-<thead><tr><th>Field</th><th>Adentro example (Startup tier)</th><th>Dubber Recording</th><th>Dubber Notes - Standard</th><th>Dubber Unified Capture</th><th>Dubber Notes - Compliance AI</th></tr></thead><tbody>
-<tr><td><code>name</code></td><td>Adentro Captive Portal Startup</td><td>Dubber Recording</td><td>Dubber Notes - Standard</td><td>Dubber Unified Capture</td><td>Dubber Notes - Compliance AI</td></tr>
-<tr><td><code>productSku</code></td><td>ADNTR_GWCP_TIER_1</td><td><code>DR_T_01</code></td><td><code>DN_T_01</code></td><td><code>DUR_T_01</code></td><td><code>DN_A_01</code></td></tr>
-<tr><td><code>shortDescription</code></td><td>Secure and branded Guest WiFi access with business logo for your guests to connect to Guest WiFi at your location.</td><td>Business call recording with capture, storage and replay for every user.</td><td>Recording plus AI Notes, transcription, speakers and chapters. 11,100 AI Credits per user each month.</td><td>Multi-channel, compliance-grade capture across voice and unified communications.</td><td>AI add-on to Unified Capture: Notes with Actions and Complaints, plus all Dubber AI features. 11,700 AI Credits per user each month.</td></tr>
-<tr><td><code>pricePlanDisplayName</code></td><td>Monthly, No Commitment</td><td><span class="tbd">[TBD: e.g. Monthly, No Commitment]</span></td><td><span class="tbd">[TBD: e.g. Monthly, No Commitment]</span></td><td><span class="tbd">[TBD: e.g. Monthly, No Commitment]</span></td><td><span class="tbd">[TBD: e.g. Monthly, No Commitment]</span></td></tr>
-<tr><td><code>priceType / price</code></td><td>MONTHLY / 9.99</td><td>MONTHLY / 9.95 per user (list)</td><td>MONTHLY / 10.95 per user (list)</td><td>MONTHLY / 19.95 per user (list)</td><td>MONTHLY / 12.95 per user (list)</td></tr>
-<tr><td><code>Trial option</code></td><td>Basic tier: Trial, 30 Days at $0</td><td><span class="tbd">[TBD: trial offered?]</span></td><td><span class="tbd">[TBD: trial offered?]</span></td><td><span class="tbd">[TBD: trial offered?]</span></td><td><span class="tbd">[TBD: trial offered?]</span></td></tr>
-<tr><td><code>minLimit / maxLimit</code></td><td>1 / 9999</td><td><span class="tbd">[TBD: limits]</span></td><td><span class="tbd">[TBD: limits]</span></td><td><span class="tbd">[TBD: limits]</span></td><td><span class="tbd">[TBD: limits]</span></td></tr>
-<tr><td><code>addOns</code></td><td>None</td><td colspan="4">AI Credit Packs SMB_A_01, BUS_A_01, BUSP_A_01, ENT_A_01. Plus Text Message Capture (SMS_T_01), WhatsApp / Teams Messaging Capture (MSG_T_01) and the Dubber API (API_A_01), either as plans or add-ons <span class="tbd">[TBD: Verizon to choose]</span>.</td></tr>
+<thead><tr><th>Field</th><th>Dubber Notes</th><th>Dubber Unified Capture</th><th>Dubber Notes - Compliance AI</th></tr></thead><tbody>
+<tr><td><code>name</code></td><td>Dubber Notes - Standard</td><td>Dubber Unified Capture</td><td>Dubber Notes - Compliance AI</td></tr>
+<tr><td><code>productSku</code></td><td><code>DN_T_01</code></td><td><code>DUR_T_01</code></td><td><code>DN_A_01</code></td></tr>
+<tr><td><code>shortDescription</code></td><td>Recording plus AI Notes, transcription, speakers and chapters. 11,100 AI Credits per user each month.</td><td>Multi-channel, compliance-grade capture across voice and unified communications.</td><td>AI add-on to Unified Capture: Notes with Actions and Complaints, plus all Dubber AI features. 11,700 AI Credits per user each month.</td></tr>
+<tr><td><code>pricePlanDisplayName</code></td><td><span class="tbd">[TBD: e.g. Monthly, No Commitment]</span></td><td><span class="tbd">[TBD: e.g. Monthly, No Commitment]</span></td><td><span class="tbd">[TBD: e.g. Monthly, No Commitment]</span></td></tr>
+<tr><td><code>priceType / price</code></td><td>MONTHLY / 10.95 per user (list)</td><td>MONTHLY / 19.95 per user (list)</td><td>MONTHLY / 12.95 per user (list)</td></tr>
+<tr><td><code>Trial option</code></td><td><span class="tbd">[TBD: trial offered?]</span></td><td><span class="tbd">[TBD: trial offered?]</span></td><td><span class="tbd">[TBD: trial offered?]</span></td></tr>
+<tr><td><code>minLimit / maxLimit</code></td><td><span class="tbd">[TBD: limits]</span></td><td><span class="tbd">[TBD: limits]</span></td><td><span class="tbd">[TBD: limits]</span></td></tr>
+<tr><td><code>addOns</code></td><td colspan="3">AI Credit Packs SMB_A_01, BUS_A_01, BUSP_A_01, ENT_A_01</td></tr>
 </tbody></table></div>
 </div></section>
 <section class="block" id="topup"><div class="wrap">
@@ -475,41 +488,41 @@ footer.site{padding:32px 0 48px;font-size:13px;color:var(--muted)}
 <div class="m-foot">The top-up will appear on your next Dubber monthly statement, and the charge on your Verizon bill. Support: <span class="tbd">[TBD: Verizon support contact]</span>.</div>
 </div>
 </div>
-<p class="note" style="margin-top:16px">In production, the "Buy an AI Credit Pack on Verizon" button goes to the Dubber listing on Verizon Business Marketplace (P2 and P15). In this mock, the buttons jump to the open items list.</p>
+<p class="note" style="margin-top:16px">In production, the "Buy an AI Credit Pack on Verizon" button goes to the Dubber listing on Verizon Business Marketplace (P2 and P14). In this mock, the buttons jump to the open items list.</p>
 </div></section>
 
 <section class="block" id="placeholders"><div class="wrap">
 <h2><span class="num">8</span>Open items</h2>
 <p class="lede">Each value still marked <span class="tbd">[TBD]</span> in this document is listed here, with who I expect to supply it. SKU part numbers, product names, units and list prices are already filled in from the SKU exhibit.</p>
 <div class="tscroll"><table class="ph-table"><thead><tr><th>#</th><th>Item</th><th>Where used</th><th>Owner</th></tr></thead><tbody>
-<tr><td>P1</td><td>Verizon catalog IDs for the 11 active SKUs (7 plans and 4 packs)</td><td>Section 4</td><td>Verizon</td></tr>
+<tr><td>P1</td><td>Verizon catalog IDs for the 7 Marketplace SKUs (3 plans and 4 packs)</td><td>Section 4</td><td>Verizon</td></tr>
 <tr><td>P2</td><td>Marketplace URL slug (<code>seoUrlName</code>), e.g. <code>dubber</code></td><td>Sections 3, 5, 6, 7</td><td>Verizon</td></tr>
 <tr><td>P3</td><td>Commitment term and price plan display name for each plan (e.g. "Monthly, No Commitment")</td><td>Sections 3, 5</td><td>Verizon and Dubber</td></tr>
 <tr><td>P4</td><td>Quantity limits (min/max) for each plan</td><td>Sections 3, 5</td><td>Verizon</td></tr>
 <tr><td>P5</td><td>Trial offer, if any</td><td>Section 5</td><td>Verizon and Dubber</td></tr>
 <tr><td>P6</td><td>Promo banner copy for the group and SKU tiles, if any</td><td>Sections 2, 5</td><td>Verizon</td></tr>
 <tr><td>P7</td><td>Gridwall Category and Solution type tags (proposed values need confirming)</td><td>Section 5</td><td>Verizon</td></tr>
-<tr><td>P8</td><td>Whether message capture and the API are listed as plans or add-ons</td><td>Section 5</td><td>Verizon</td></tr>
-<tr><td>P9</td><td>Whether AI Credit Packs can be added to Dubber Recording or Unified Capture on their own, or need an active Notes subscription</td><td>Sections 3, 4</td><td>Dubber</td></tr>
-<tr><td>P10</td><td>Final logo asset spec and Verizon-hosted image</td><td>Section 5</td><td>Verizon and Dubber</td></tr>
-<tr><td>P11</td><td>Resources links: installation guide, user guide, API documentation, API licence, support page, terms of service (<code>tncUrl</code>) and EULA</td><td>Sections 3, 5</td><td>Dubber</td></tr>
-<tr><td>P12</td><td>Customer support phone number and point-of-contact email for Verizon customers</td><td>Sections 3, 7</td><td>Dubber</td></tr>
-<tr><td>P13</td><td>Verizon-specific terms, plus cancellation and refund wording</td><td>Section 3</td><td>Verizon and Dubber</td></tr>
-<tr><td>P14</td><td>Default low-balance alert level, if Dubber sets one for Marketplace accounts</td><td>Section 6</td><td>Dubber</td></tr>
-<tr><td>P15</td><td>Deep link and tracking parameters for the email button, landing on the listing's AI Credit Packs</td><td>Sections 6, 7</td><td>Verizon and Dubber</td></tr>
-<tr><td>P16</td><td>A final "balance used up" alert, and what happens to Notes and Moments at zero balance</td><td>Sections 6, 7</td><td>Dubber</td></tr>
-<tr><td>P17</td><td>Reminder cadence while the balance stays low</td><td>Section 6</td><td>Dubber</td></tr>
-<tr><td>P18</td><td>Notification Centre sender address</td><td>Sections 6, 7</td><td>Dubber</td></tr>
-<tr><td>P19</td><td>Verizon account permissions needed to buy add-ons</td><td>Section 6</td><td>Verizon</td></tr>
-<tr><td>P20</td><td>How orders reach Dubber for provisioning: method, account matching key and provisioning time</td><td>Section 6</td><td>Verizon and Dubber</td></tr>
-<tr><td>P21</td><td>Verizon order confirmation email template</td><td>Section 6</td><td>Verizon</td></tr>
-<tr><td>P22</td><td>Menu path in the Dubber app for managing alerts</td><td>Section 7</td><td>Dubber</td></tr>
+<tr><td>P8</td><td>Whether AI Credit Packs can be added to Dubber Unified Capture on its own, or need an active Notes subscription</td><td>Sections 3, 4</td><td>Dubber</td></tr>
+<tr><td>P9</td><td>Final logo asset spec and Verizon-hosted image</td><td>Section 5</td><td>Verizon and Dubber</td></tr>
+<tr><td>P10</td><td>Resources links: installation guide, user guide, API documentation, support page, terms of service (<code>tncUrl</code>) and EULA</td><td>Sections 3, 5</td><td>Dubber</td></tr>
+<tr><td>P11</td><td>Customer support phone number and point-of-contact email for Verizon customers</td><td>Sections 3, 7</td><td>Dubber</td></tr>
+<tr><td>P12</td><td>Verizon-specific terms, plus cancellation and refund wording</td><td>Section 3</td><td>Verizon and Dubber</td></tr>
+<tr><td>P13</td><td>Default low-balance alert level, if Dubber sets one for Marketplace accounts</td><td>Section 6</td><td>Dubber</td></tr>
+<tr><td>P14</td><td>Deep link and tracking parameters for the email button, landing on the listing's AI Credit Packs</td><td>Sections 6, 7</td><td>Verizon and Dubber</td></tr>
+<tr><td>P15</td><td>A final "balance used up" alert, and what happens to Notes and Moments at zero balance</td><td>Sections 6, 7</td><td>Dubber</td></tr>
+<tr><td>P16</td><td>Reminder cadence while the balance stays low</td><td>Section 6</td><td>Dubber</td></tr>
+<tr><td>P17</td><td>Notification Centre sender address</td><td>Sections 6, 7</td><td>Dubber</td></tr>
+<tr><td>P18</td><td>Verizon account permissions needed to buy add-ons</td><td>Section 6</td><td>Verizon</td></tr>
+<tr><td>P19</td><td>How orders reach Dubber for provisioning: method, account matching key and provisioning time</td><td>Section 6</td><td>Verizon and Dubber</td></tr>
+<tr><td>P20</td><td>Verizon order confirmation email template</td><td>Section 6</td><td>Verizon</td></tr>
+<tr><td>P21</td><td>Menu path in the Dubber app for managing alerts</td><td>Section 7</td><td>Dubber</td></tr>
+<tr><td>P22</td><td>Confirm audit and compliance review periods as an AI Credit Pack use case, with typical usage</td><td>Section 3</td><td>Dubber</td></tr>
 </tbody></table></div>
 </div></section>
 </main>
 <footer class="site"><div class="wrap">
 <p><strong>Adrian D</strong> &middot; Dubber on Verizon Business Marketplace: SKU Gridwall and Product Page Design</p>
-<p>All AI Credit (token) values are indicative and subject to change. Prices are list prices in US dollars. Adentro content is quoted from the live Verizon Business Marketplace listing for structure reference only.</p>
+<p>All AI Credit (token) values are indicative and subject to change. Prices are list prices in US dollars.</p>
 </div></footer>
 </body>
 </html>
